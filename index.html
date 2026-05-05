@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ana Iarajuli — Python Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="grid-bg"></div>
+<div class="noise"></div>
+
+<nav>
+  <div class="nav-logo">Ana Iarajuli</div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div id="hero">
+    <svg class="hero-orbit" viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg">
+      <circle class="spin-slow" cx="270" cy="270" r="240" stroke-width="0.5" stroke-dasharray="6 18"/>
+      <circle class="spin-rev" cx="270" cy="270" r="190" stroke-width="0.5" stroke-dasharray="2 10"/>
+      <circle cx="270" cy="270" r="140" stroke-width="0.5"/>
+      <circle cx="270" cy="30" r="5" fill="var(--lavender)" stroke="none"/>
+      <circle cx="270" cy="510" r="3" fill="var(--lavender)" stroke="none" opacity="0.5"/>
+      <circle cx="30" cy="270" r="3" fill="var(--lavender)" stroke="none" opacity="0.5"/>
+      <circle cx="510" cy="270" r="5" fill="var(--lavender)" stroke="none"/>
+    </svg>
+
+    <div class="hero-tag">Python Developer & Educator</div>
+    <h1 class="hero-name">
+      Ana<br><span>Iarajuli</span>
+    </h1>
+    <div class="hero-title">Backend · Teaching · Systems</div>
+    <p class="hero-desc">
+      Python developer and lecturer with experience building production systems, mentoring 100+ students, and bridging software engineering with education. Based in Georgia, with international experience from Spain.
+    </p>
+    <div class="hero-cta">
+      <a href="mailto:Anna.iarajuli@gmail.com" class="btn btn-primary">Get in Touch</a>
+      <a href="#experience" class="btn btn-ghost">View Work</a>
+    </div>
+
+    <div class="hero-status">
+      <div class="status-dot"></div>
+      Available for new opportunities
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">Capabilities</div>
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-cell">
+        <div class="skill-cat">Languages</div>
+        <div class="skill-items">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Bash</span>
+        </div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Frameworks & Libraries</div>
+        <div class="skill-items">
+          <span class="skill-tag">Flask</span>
+          <span class="skill-tag">Odoo</span>
+          <span class="skill-tag">Pytest</span>
+          <span class="skill-tag">SQLAlchemy</span>
+        </div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">API & Testing</div>
+        <div class="skill-items">
+          <span class="skill-tag">Postman</span>
+          <span class="skill-tag">JSON Parsing</span>
+          <span class="skill-tag">XML Parsing</span>
+        </div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">DevOps & Version Control</div>
+        <div class="skill-items">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">Bitbucket</span>
+          <span class="skill-tag">GitLab</span>
+          <span class="skill-tag">CI/CD</span>
+        </div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Infrastructure</div>
+        <div class="skill-items">
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Docker</span>
+        </div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Databases</div>
+        <div class="skill-items">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">PostgreSQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label">Work History</div>
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+
+      <div class="exp-item">
+        <div class="exp-dot"></div>
+        <div class="exp-period">May 2025 – Feb 2026</div>
+        <div class="exp-role">Python Lecturer</div>
+        <div class="exp-company">Techschool 'GeoLab'</div>
+        <ul class="exp-bullets">
+          <li>Taught Python programming to 100+ students</li>
+          <li>Delivered curriculum: Python, HTML/CSS, Bootstrap, Flask, Git</li>
+          <li>Created practical exercises improving project completion rates</li>
+          <li>Mentored students through hands-on coding and problem-solving</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-dot"></div>
+        <div class="exp-period">Feb 2024 – Sep 2024</div>
+        <div class="exp-role">Python Developer</div>
+        <div class="exp-company">HMG Software</div>
+        <ul class="exp-bullets">
+          <li>Conducted code reviews resulting in 15% reduction in production bugs</li>
+          <li>Implemented version migration strategies for legacy systems</li>
+          <li>Deployed and maintained Python modules across multiple server environments</li>
+          <li>Provided technical feedback to improve team development practices</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-dot"></div>
+        <div class="exp-period">Oct 2023 – Present</div>
+        <div class="exp-role">Python Lecturer</div>
+        <div class="exp-company">Programming School 'Mziuri'</div>
+        <ul class="exp-bullets">
+          <li>Taught comprehensive Python programming to 60+ students</li>
+          <li>Developed curriculum covering Python, HTML/CSS, Bootstrap, Flask, Git</li>
+          <li>Created practical exercises improving student project completion rates</li>
+          <li>Mentored students through hands-on projects and technical problem-solving</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label">Academic Background</div>
+    <h2 class="section-title">Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-period">2021 – Jan 2026</div>
+        <div class="edu-degree">B.Sc. Information Technologies</div>
+        <div class="edu-inst">Business and Technology University<br>Tbilisi, Georgia</div>
+        <div class="edu-badge">Bachelor's Degree</div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-period">2024 – Jan 2025</div>
+        <div class="edu-degree">Erasmus Exchange — Computer Science</div>
+        <div class="edu-inst">University of Castilla-La Mancha<br>Spain</div>
+        <div class="edu-badge">International Exchange</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section id="languages">
+    <div class="section-label">Communication</div>
+    <h2 class="section-title">Languages</h2>
+    <div class="lang-row">
+      <div class="lang-item">
+        <div class="lang-name">Georgian</div>
+        <div class="lang-level-text">Native</div>
+        <div class="lang-bar"><div class="lang-fill" data-width="100%"></div></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-name">English</div>
+        <div class="lang-level-text">Advanced · C1</div>
+        <div class="lang-bar"><div class="lang-fill" data-width="85%"></div></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-name">Spanish</div>
+        <div class="lang-level-text">Beginner · A1</div>
+        <div class="lang-bar"><div class="lang-fill" data-width="15%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">Reach out</div>
+    <h2 class="section-title">Let's Connect</h2>
+    <a href="mailto:Anna.iarajuli@gmail.com" class="contact-email">Anna.iarajuli@gmail.com</a>
+    <br>
+    <a href="https://linkedin.com" target="_blank" class="btn btn-ghost" style="margin-top:1rem">LinkedIn Profile ↗</a>
+  </section>
+</main>
+
+<footer>
+  <span>© 2026 Ana Iarajuli</span>
+  <span>Python Developer · Tbilisi, Georgia</span>
+</footer>
+
+</body>
+</html>
