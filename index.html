@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ana Iarajuli — Python Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
-<script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Iarajuli — Python Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -15,35 +14,41 @@
 <div class="grid-bg"></div>
 <div class="noise"></div>
 
+<!-- NAV -->
 <nav>
   <div class="nav-logo">Ana Iarajuli</div>
   <ul class="nav-links">
     <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#education">Education</a></li>
+    <li><a href="#accomplishments">Life</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
 <main>
+
+  <!-- HERO -->
   <div id="hero">
     <svg class="hero-orbit" viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg">
       <circle class="spin-slow" cx="270" cy="270" r="240" stroke-width="0.5" stroke-dasharray="6 18"/>
-      <circle class="spin-rev" cx="270" cy="270" r="190" stroke-width="0.5" stroke-dasharray="2 10"/>
+      <circle class="spin-rev"  cx="270" cy="270" r="190" stroke-width="0.5" stroke-dasharray="2 10"/>
       <circle cx="270" cy="270" r="140" stroke-width="0.5"/>
-      <circle cx="270" cy="30" r="5" fill="var(--lavender)" stroke="none"/>
+      <circle cx="270" cy="30"  r="5" fill="var(--lavender)" stroke="none"/>
       <circle cx="270" cy="510" r="3" fill="var(--lavender)" stroke="none" opacity="0.5"/>
-      <circle cx="30" cy="270" r="3" fill="var(--lavender)" stroke="none" opacity="0.5"/>
+      <circle cx="30"  cy="270" r="3" fill="var(--lavender)" stroke="none" opacity="0.5"/>
       <circle cx="510" cy="270" r="5" fill="var(--lavender)" stroke="none"/>
     </svg>
 
-    <div class="hero-tag">Python Developer & Educator</div>
+    <div class="hero-tag">Python Developer &amp; Educator</div>
     <h1 class="hero-name">
       Ana<br><span>Iarajuli</span>
     </h1>
     <div class="hero-title">Backend · Teaching · Systems</div>
     <p class="hero-desc">
-      Python developer and lecturer with experience building production systems, mentoring 100+ students, and bridging software engineering with education. Based in Georgia, with international experience from Spain.
+      Python developer and lecturer with experience building production systems,
+      mentoring 100+ students, and bridging software engineering with education.
+      Based in Georgia, with international experience from Spain.
     </p>
     <div class="hero-cta">
       <a href="mailto:Anna.iarajuli@gmail.com" class="btn btn-primary">Get in Touch</a>
@@ -61,6 +66,7 @@
     <div class="section-label">Capabilities</div>
     <h2 class="section-title">Technical Skills</h2>
     <div class="skills-grid">
+
       <div class="skill-cell">
         <div class="skill-cat">Languages</div>
         <div class="skill-items">
@@ -69,8 +75,9 @@
           <span class="skill-tag">Bash</span>
         </div>
       </div>
+
       <div class="skill-cell">
-        <div class="skill-cat">Frameworks & Libraries</div>
+        <div class="skill-cat">Frameworks &amp; Libraries</div>
         <div class="skill-items">
           <span class="skill-tag">Flask</span>
           <span class="skill-tag">Odoo</span>
@@ -78,16 +85,18 @@
           <span class="skill-tag">SQLAlchemy</span>
         </div>
       </div>
+
       <div class="skill-cell">
-        <div class="skill-cat">API & Testing</div>
+        <div class="skill-cat">API &amp; Testing</div>
         <div class="skill-items">
           <span class="skill-tag">Postman</span>
           <span class="skill-tag">JSON Parsing</span>
           <span class="skill-tag">XML Parsing</span>
         </div>
       </div>
+
       <div class="skill-cell">
-        <div class="skill-cat">DevOps & Version Control</div>
+        <div class="skill-cat">DevOps &amp; Version Control</div>
         <div class="skill-items">
           <span class="skill-tag">Git</span>
           <span class="skill-tag">GitHub</span>
@@ -96,6 +105,7 @@
           <span class="skill-tag">CI/CD</span>
         </div>
       </div>
+
       <div class="skill-cell">
         <div class="skill-cat">Infrastructure</div>
         <div class="skill-items">
@@ -103,6 +113,7 @@
           <span class="skill-tag">Docker</span>
         </div>
       </div>
+
       <div class="skill-cell">
         <div class="skill-cat">Databases</div>
         <div class="skill-items">
@@ -110,6 +121,7 @@
           <span class="skill-tag">PostgreSQL</span>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -166,18 +178,21 @@
     <div class="section-label">Academic Background</div>
     <h2 class="section-title">Education</h2>
     <div class="edu-grid">
+
       <div class="edu-card">
         <div class="edu-period">2021 – Jan 2026</div>
         <div class="edu-degree">B.Sc. Information Technologies</div>
         <div class="edu-inst">Business and Technology University<br>Tbilisi, Georgia</div>
         <div class="edu-badge">Bachelor's Degree</div>
       </div>
+
       <div class="edu-card">
         <div class="edu-period">2024 – Jan 2025</div>
         <div class="edu-degree">Erasmus Exchange — Computer Science</div>
         <div class="edu-inst">University of Castilla-La Mancha<br>Spain</div>
         <div class="edu-badge">International Exchange</div>
       </div>
+
     </div>
   </section>
 
@@ -186,21 +201,74 @@
     <div class="section-label">Communication</div>
     <h2 class="section-title">Languages</h2>
     <div class="lang-row">
+
       <div class="lang-item">
         <div class="lang-name">Georgian</div>
         <div class="lang-level-text">Native</div>
         <div class="lang-bar"><div class="lang-fill" data-width="100%"></div></div>
       </div>
+
       <div class="lang-item">
         <div class="lang-name">English</div>
         <div class="lang-level-text">Advanced · C1</div>
         <div class="lang-bar"><div class="lang-fill" data-width="85%"></div></div>
       </div>
+
       <div class="lang-item">
         <div class="lang-name">Spanish</div>
         <div class="lang-level-text">Beginner · A1</div>
         <div class="lang-bar"><div class="lang-fill" data-width="15%"></div></div>
       </div>
+
+    </div>
+  </section>
+
+  <!-- LIFE ACCOMPLISHMENTS -->
+  <section id="accomplishments">
+    <div class="section-label">Beyond the Screen</div>
+    <h2 class="section-title">Life Accomplishments</h2>
+    <div class="achiev-grid">
+
+      <div class="achiev-card">
+        <div class="achiev-icon">🏃</div>
+        <div class="achiev-body">
+          <div class="achiev-title">Tbilisi Marathon 2025</div>
+          <div class="achiev-sub">Finisher · 10 km</div>
+        </div>
+      </div>
+
+      <div class="achiev-card">
+        <div class="achiev-icon">🌲</div>
+        <div class="achiev-body">
+          <div class="achiev-title">Lisi Trail Marathon 2026</div>
+          <div class="achiev-sub">Finisher · 12 km</div>
+        </div>
+      </div>
+
+      <div class="achiev-card">
+        <div class="achiev-icon">♟</div>
+        <div class="achiev-body">
+          <div class="achiev-title">Chess Rating 1700</div>
+          <div class="achiev-sub">Rapid</div>
+        </div>
+      </div>
+
+      <div class="achiev-card">
+        <div class="achiev-icon">⛰</div>
+        <div class="achiev-body">
+          <div class="achiev-title">Mount Antsukhelidze</div>
+          <div class="achiev-sub">Summit · 3 276 m</div>
+        </div>
+      </div>
+
+      <div class="achiev-card achiev-card--wide">
+        <div class="achiev-icon">🥞</div>
+        <div class="achiev-body">
+          <div class="achiev-title">Perfect Fluffy Pancake Recipe</div>
+          <div class="achiev-sub">Achieved · Classified</div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -212,6 +280,7 @@
     <br>
     <a href="https://linkedin.com" target="_blank" class="btn btn-ghost" style="margin-top:1rem">LinkedIn Profile ↗</a>
   </section>
+
 </main>
 
 <footer>
@@ -219,5 +288,6 @@
   <span>Python Developer · Tbilisi, Georgia</span>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
